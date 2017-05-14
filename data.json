@@ -1,0 +1,31 @@
+{
+  "JSChart": {
+    "datasets": [
+      {
+        "type": "pie",
+        "data": [
+          {
+            "unit": "Genesis",
+            "value": "20"
+          },
+          {
+            "unit": "Nintendo",
+            "value": "10"
+          },
+          {
+            "unit": "Super Nintendo",
+            "value": "30"
+          },
+          {
+            "unit": "Sega CD",
+            "value": "10"
+          },
+          {
+            "unit": "Gamecube",
+            "value": "5"
+          }
+        ]
+      }
+    ]
+  }
+}
