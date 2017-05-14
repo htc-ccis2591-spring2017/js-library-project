@@ -1,0 +1,54 @@
+{
+  "JSChart": {
+    "datasets": [
+      {
+        "id": "Super Nintendo",
+        "type": "line",
+        "data": [
+          {
+            "unit": "10",
+            "value": "20"
+          },
+          {
+            "unit": "15",
+            "value": "10"
+          },
+          {
+            "unit": "20",
+            "value": "30"
+          },
+          {
+            "unit": "25",
+            "value": "10"
+          },
+          {
+            "unit": "30",
+            "value": "5"
+          }
+        ]
+      },
+      {
+        "id": "Sega Genesis",
+        "type": "line",
+        "data": [
+          {
+            "unit": "10",
+            "value": "10"
+          },
+          {
+            "unit": "15",
+            "value": "5"
+          },
+          {
+            "unit": "25",
+            "value": "25"
+          },
+          {
+            "unit": "30",
+            "value": "20"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <title>JS Charts Tech Demo</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="jscharts.utf8.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>JS Charts Tech Demo</h1>
+    </header>
+
+    <main>
+        <div>
+         <p>This chart is created by using a dictionary. Each entry is the bottom row and where it is on the chart.  I have also customized the chart.</p>
+            <div id="chartcontainer"></div>
+
+            <p>This chart is created using a JSON file.</p>
+            <div id="chartcontainer2">
+                <JSChart>
+                    <dataset type="pie">
+                    </dataset>
+                </JSChart>
+            </div>
+            <p>This chart was created using two separate arrays.</p>
+            <div id="chartcontainer3">
+            </div>
+ 
+            <p>This chart was created using two separate data sets in a JSON file.</p>
+            <div id="chartcontainer4">
+            </div>
+        </div>
+    </main>
+
+    <!-- javascript -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
